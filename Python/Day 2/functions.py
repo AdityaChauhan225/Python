@@ -35,3 +35,4 @@ def demoFun(*arg,**kwarg):
     print(f"args:{arg}\nkwargs:{kwarg}")
 
 demoFun("a","b","c",name="Alice",age=20,city="paris")
+
