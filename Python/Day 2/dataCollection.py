@@ -65,3 +65,8 @@ colors= "red" , "green" , "blue" #n tupples without paranthesis (Tupple packing)
 # num[3]=3
 print(len(num))
 print(len(colors))
+
+tup1= (1,2,3)
+tup2 = (4,5,6)
+print(tup1+tup2) 
+print(tup1*3)
