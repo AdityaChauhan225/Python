@@ -185,7 +185,14 @@ class card(PaymentMethod):
 ######## Polymorphism #########
 '''
 It allows different classes to define methods with the same name that behave differently 
+
+Types of polymorphism:
+1) Runtime polymorphism -- Method Overriding (method name same but the implementation would be different in parent and child class)
+2) 
+
 '''
+
+
 
 class Bird:
     def sound(self):
