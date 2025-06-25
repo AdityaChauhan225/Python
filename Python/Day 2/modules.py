@@ -6,11 +6,13 @@ import math as m
 # print(m.sqrt(4))
 # print(m.pow(4,2))
 # print(m.pi)
-m.sux(2,4)
+
 from random import *
 
-print(random())
-print(randint(1,43))
+# print(random())
+# print(randint(1,43))
 
-import datetime as dt
-print(dt.datetime.now())
+# import datetime as dt
+# print(dt.datetime.now())
+
+
