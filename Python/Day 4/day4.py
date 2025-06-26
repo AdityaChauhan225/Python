@@ -116,3 +116,17 @@ binary mode is used for image, audio or any non text data
 # with open("image.jfif","rb") as f:
 #     data = f.read()
 
+
+
+
+### lamda function
+'''
+It is a small anoymous function which can take any number of arguments but can have only one expression. 
+Syntax:- lambda arguments:expression
+'''
+
+a = lambda a,v,c: print(a+v+c)
+a(1,2,3)
+
+b = lambda a,v,c: print(a*v*c)
+b(2,3,4)

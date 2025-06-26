@@ -13,3 +13,20 @@ numpy arrays store at one continous place in memory unlike list, so the process 
 ''' 
 
 import numpy as np 
+zd=np.array(34)
+od = np.array([1,2,3])
+td  = np.array([[1,23,4,3],[3,3,3,3]])
+threed = np.array([[[1,23,4,3],[3,3,3,3]],[[1,23,4,3],[3,3,3,3]]])
+
+fivd = np.array([1,2,3,4],ndmin=5)
+
+print(od[1])
+print(td[1,1])
+
+# print(f"{zd}\n{od}\n{td}\n{threed}\n{fivd}")
+
+for i in range(1,6):
+    print("*"*i)
+
+for i in range(6,1,-1):
+    print("*"*i)
