@@ -128,5 +128,6 @@ Syntax:- lambda arguments:expression
 a = lambda a,v,c: print(a+v+c)
 a(1,2,3)
 
-b = lambda a,v,c: print(a*v*c)
+b = lambda a,v,c: print(a*v*c)  
 b(2,3,4)
+
