@@ -10,3 +10,6 @@ https://wsform.com/knowledgebase/sample-csv-files/
 
 
 WHAT IS YIELD
+sql lite3
+CRUD
+webapi weather app
