@@ -98,7 +98,6 @@ print(np.concat((a1, a2),axis=0))
 '''
 in numpy there are more type of functions to join arrays
 1. Stack
-2. 
 '''
 
 '''
@@ -107,9 +106,40 @@ hstack(): Numpy provides a helper function:::: it stacks along rows
 vstack(): to stack along columns
 dstack(): to stack along height, which is the same as depth. 
 '''
-newa = np.array_split(a,3)
 
 
-#### Kaggle ( for data ) 
-#### weather app ( )
-#### management system ()
+arr1 = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12],[13,14,15]]) 
+# newarr1 = np.array_split(arr,3,axis=1)
+
+# we also have the method split() available but it will not adjust the elements are less in source array for splitting, array_split() worked properly but split() would fail.
+
+x=np.where(arr1==4) # used to search in numpy array (returns the index that get a match)
+print(x)
+
+# searchsorted() which performs a binary search in the array, and returns the index where the specified value would be inserted to maintain the search order
+'''
+the function np.searchsorted() is used to find the index where the value should be inserted so that the order of the array remains sorted
+'''
+arr = np.array([6,7,8,9])
+y=np.searchsorted(arr,7,side='right')
+print(y)
+
+
+#### will sort the array in ascending order
+
+abc = np.array([16,26,3,7,0,1])
+print(np.sort(abc))
+
+arr=["a","c","b","A","F","R","1","&"]
+print(np.sort(arr))
+
+#### bolean indexing
+
+""" 
+Bolean indexing means selecting elements from a array using boolean values.
+It creates a mask based on a condition.
+It filter elements where the condition is true.
+"""
+
+mask = arr1%5==0
+print(mask)

@@ -1,2 +1,12 @@
 https://aman-0402.github.io/StudyPython/
 https://drive.google.com/drive/folders/1T9IVXLAx17XKW7mOrqviev6fvTN36ogZ
+
+# csv files
+https://wsform.com/knowledgebase/sample-csv-files/
+
+#### Kaggle ( for data ) 
+#### weather app ( )
+#### management system ()
+
+
+WHAT IS YIELD
